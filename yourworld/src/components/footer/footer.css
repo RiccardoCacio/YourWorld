@@ -9,6 +9,14 @@ footer {
     margin-top: 70px;
 }
 
+@media only screen and (max-width: 767px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
 .footerText {
     font-size: 15px;
     line-height: 20px;
@@ -20,9 +28,18 @@ footer {
     gap: 20px;
 }
 
+@media only screen and (max-width: 767px) {
+    .colTwo {
+        display: flex;
+        justify-content: center;
+    }
+}
+
 .footerLink {
     display: flex;
 }
+
+
 
 a {
     display: flex;
@@ -36,5 +53,7 @@ a {
 @media only screen and (max-width: 767px) {
     .s2iLink {
         margin-bottom: 20px;
+        display: flex;
+        justify-content: center;
     }
 }
