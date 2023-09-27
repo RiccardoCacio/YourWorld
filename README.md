@@ -1,6 +1,8 @@
 <h1 align="center">🚀🎓 S2I • Final Project • Front End Development</h1>
 
-![yourworldimg](https://github.com/RiccardoCacio/YourWorld/assets/122369231/37ea2067-e6ad-4adf-8b68-64e04e544229)
+<p align="center">
+  <img src="https://github.com/RiccardoCacio/YourWorld/assets/122369231/37ea2067-e6ad-4adf-8b68-64e04e544229" alt="Your World">
+</p>
 
 <h3>Ciao sono Riccardo uno studente di Start2Impact University!</h3>
 <p>Sono entusiasta di dirti che questo è il mio progetto finale per il master in Front End Development!</p>
