@@ -1,0 +1,40 @@
+footer {
+    background-color: #4c984c;
+    color: #212529;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    height: 100%;
+    margin-top: 70px;
+}
+
+.footerText {
+    font-size: 15px;
+    line-height: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.colTwo {
+    display: flex;
+    gap: 20px;
+}
+
+.footerLink {
+    display: flex;
+}
+
+a {
+    display: flex;
+    color: #212529;
+}
+
+.s2iLink:hover {
+    color: #f07727;
+}
+
+@media only screen and (max-width: 767px) {
+    .s2iLink {
+        margin-bottom: 20px;
+    }
+}

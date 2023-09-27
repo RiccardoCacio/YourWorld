@@ -1,0 +1,129 @@
+.nav {
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+}
+
+@media only screen and (max-width: 767px) {
+    .nav {
+        display: none;
+    }
+}
+
+.navColorato {
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 600;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    z-index: 10;
+    background-color: rgba(88, 87, 87, 0.4);
+    backdrop-filter: blur(5px);
+}
+
+@media only screen and (max-width: 767px) {
+    .navColorato {
+        display: none;
+    }
+}
+
+
+.navBox {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.navLink {
+    text-decoration: none;
+    color: rgb(24, 20, 20);
+}
+
+
+.navLink:hover {
+    color: #f07727;
+}
+
+.responsiveNav {
+    display: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .responsiveNav {
+        display: flex;
+        background-color: transparent;
+        font-size: 20px;
+        font-weight: 600;
+        position: fixed;
+        width: 100%;
+        top: 0px;
+        z-index: 10;
+        background-color: rgba(88, 87, 87, 0.4);
+        backdrop-filter: blur(5px);
+        padding: 5px;
+        max-height: 60px;
+        justify-content: center;
+        transition: max-height 0.3s ease-in-out;
+        overflow: hidden;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .responsiveContainer {
+        display: flex;
+        justify-content: space-between;
+
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .hamburgerSvg {
+        height: 30px;
+        margin-top: 6px;
+    }
+}
+
+.navButton {
+    background-color: transparent;
+    border: none;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbarResponsiveTitle {
+        font-size: 22px;
+        color: #f07727;
+    }
+}
+
+
+@media only screen and (max-width: 767px) {
+    .navBoxResponsiveLink {
+        display: flex;
+        gap: 5px;
+        padding: 0px 20px 0px 20px;
+        flex-direction: column;
+        list-style: none;
+        overflow: hidden;
+        max-height: 0px;
+        transition: max-height 0.3s ease-in-out;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .navLinkResponsive {
+        text-decoration: none;
+        color: #f6f4f3;
+        font-weight: 500;
+    }
+}
+
+.navLinkResponsive:hover {
+    color: #f07727;
+}
