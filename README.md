@@ -23,9 +23,10 @@ del climate change!</p>
 <h6>Sono molto felice del risultato finale di questo progetto e spero che possa essere utile nella sensibilizzazione e informazione verso il climate change!</h6>
 
 ### Linguaggi e librerie
-• HTML<br>
+• JSX<br>
 • CSS<br>
 • [Chart.js](https://www.chartjs.org)<br>
+• React Router<br>
 • [Axios](https://axios-http.com)<br>
 • [React](https://react.dev)<br>
 
