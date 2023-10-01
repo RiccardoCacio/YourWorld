@@ -5,6 +5,7 @@ import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
 import Spinner from '../LoadingSpinner/Spinner';
 import Error from '../Error/Error';
+import styles from './temperature.module.css'
 
 const TemperatureChart = () => {
     const temperatureUrl = 'https://global-warming.org/api/temperature-api'
@@ -91,8 +92,8 @@ const TemperatureChart = () => {
     return (
 
         <> {temperatureIsAvaible ?
-            <div className='temperatureChart'>
-                <h2 className='temperatureChartTitle'>Anomalie della temperatura globale dal 1880 ad oggi</h2>
+            <div className={styles.temperatureChart}>
+                <h2 className={styles.temperatureChartTitle}>Anomalie della temperatura globale dal 1880 ad oggi</h2>
                 {temperatureIsCharge ? <Line data={data} options={options} />
                     : <Spinner />}
             </div>

@@ -1,13 +1,13 @@
 import React from 'react'
-import './nitro.css'
+import styles from './nitro.module.css'
 const NitroHeader = () => {
     return (
-        <header className='headerNitro'>
-            <div className="headerNitroBox">
-                <h4 className='headerNitroSubTitle'>
+        <header className={styles.headerNitro}>
+            <div className={styles.headerNitroBox}>
+                <h4 className={styles.headerNitroSubTitle}>
                     L'Ossido di Azoto (NO2): <br /> Impatto Ambientale e Fonti di Emissione
                 </h4>
-                <p className="headerNitroP">
+                <p className={styles.headerNitroP}>
                     L'ossido di azoto (NO2)
                     è un inquinante atmosferico di
                     origine industriale e veicolare.

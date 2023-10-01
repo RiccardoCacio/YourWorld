@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import './navbar.css'
+import styles from './navbar.module.css'
 import Hamburger from '../../img/svg/hamburger.svg'
 import { Link } from 'react-router-dom'
 
@@ -13,11 +13,10 @@ const Navbar = () => {
     useEffect(() => {
         window.onscroll = () => {
             if (window.scrollY > 50) {
-                setNavcolor('navColorato')
+                setNavcolor(styles.navColorato)
             } else {
-                setNavcolor('nav')
+                setNavcolor(styles.nav)
             }
-
         }
     })
 
@@ -37,34 +36,34 @@ const Navbar = () => {
     return (
         <>
             <nav className={navcolor}>
-                <ul className='navBox'>
-                    <li className="navElement"> <Link className='navLink' to='/' >Home</Link> </li>
-                    <li className="navElement"> <Link className='navLink' to='/temperature' >Temperature</Link> </li>
-                    <li className="navElement"> <Link className='navLink' to='/co2' >CO2</Link> </li>
-                    <li className="navElement"> <Link className='navLink' to='/metano' >Metano</Link> </li>
-                    <li className="navElement"> <Link className='navLink' to='/no2' >NO2</Link> </li>
-                    <li className="navElement"> <Link className='navLink' to='/ghiacciopolare' >Ghiaccio Polare</Link> </li>
+                <ul className={styles.navBox}>
+                    <li className={styles.navElement}> <Link className={styles.navLink} to='/' >Home</Link> </li>
+                    <li className={styles.navElement}> <Link className={styles.navLink} to='/temperature' >Temperature</Link> </li>
+                    <li className={styles.navElement}> <Link className={styles.navLink} to='/co2' >CO2</Link> </li>
+                    <li className={styles.navElement}> <Link className={styles.navLink} to='/metano' >Metano</Link> </li>
+                    <li className={styles.navElement}> <Link className={styles.navLink} to='/no2' >NO2</Link> </li>
+                    <li className={styles.navElement}> <Link className={styles.navLink} to='/ghiacciopolare' >Ghiaccio Polare</Link> </li>
                 </ul>
             </nav>
 
-            <nav className="responsiveNav" style={responsiveNavIsOpen ? openNavStyle : null}>
-                <div className="responsiveNavBox">
-                    <div className="responsiveContainer">
-                        <h1 className="navbarResponsiveTitle">
+            <nav className={styles.responsiveNav} style={responsiveNavIsOpen ? openNavStyle : null}>
+                <div className={styles.responsiveNavBox}>
+                    <div className={styles.responsiveContainer}>
+                        <h1 className={styles.navbarResponsiveTitle}>
                             YOUR WORLD
                         </h1>
-                        <button className='navButton' onClick={() => setResponsiveNavIsOpen(!responsiveNavIsOpen)}>
-                            <img className='hamburgerSvg' src={Hamburger} />
+                        <button className={styles.navButton} onClick={() => setResponsiveNavIsOpen(!responsiveNavIsOpen)}>
+                            <img className={styles.hamburgerSvg} src={Hamburger} />
                         </button>
                     </div>
 
-                    <ul className='navBoxResponsiveLink' style={responsiveNavIsOpen ? openNavStyle : null} >
-                        <li className="navElementResponsive" onClick={closeAndScroll}> <Link className='navLinkResponsive' to='/' >Home</Link> </li>
-                        <li className="navElementResponsive" onClick={closeAndScroll}> <Link className='navLinkResponsive' to='/temperature' >Temperature</Link> </li>
-                        <li className="navElementResponsive" onClick={closeAndScroll}> <Link className='navLinkResponsive' to='/co2' >CO2</Link> </li>
-                        <li className="navElementResponsive" onClick={closeAndScroll}> <Link className='navLinkResponsive' to='/metano' >Metano</Link> </li>
-                        <li className="navElementResponsive" onClick={closeAndScroll}> <Link className='navLinkResponsive' to='/no2' >NO2</Link> </li>
-                        <li className="navElementResponsive" onClick={closeAndScroll}> <Link className='navLinkResponsive' to='/ghiacciopolare' >Ghiaccio Polare</Link> </li>
+                    <ul className={styles.navBoxResponsiveLink} style={responsiveNavIsOpen ? openNavStyle : null} >
+                        <li className={styles.navElementResponsive} onClick={closeAndScroll}> <Link className={styles.navLinkResponsive} to='/' >Home</Link> </li>
+                        <li className={styles.navElementResponsive} onClick={closeAndScroll}> <Link className={styles.navLinkResponsive} to='/temperature' >Temperature</Link> </li>
+                        <li className={styles.navElementResponsive} onClick={closeAndScroll}> <Link className={styles.navLinkResponsive} to='/co2' >CO2</Link> </li>
+                        <li className={styles.navElementResponsive} onClick={closeAndScroll}> <Link className={styles.navLinkResponsive} to='/metano' >Metano</Link> </li>
+                        <li className={styles.navElementResponsive} onClick={closeAndScroll}> <Link className={styles.navLinkResponsive} to='/no2' >NO2</Link> </li>
+                        <li className={styles.navElementResponsive} onClick={closeAndScroll}> <Link className={styles.navLinkResponsive} to='/ghiacciopolare' >Ghiaccio Polare</Link> </li>
                     </ul>
                 </div>
             </nav>

@@ -1,12 +1,12 @@
 import React from 'react'
-
+import styles from './home.module.css'
 const HomeHeader = () => {
     return (
-        <header className='headerHome'>
-            <div className='headerHomeBox'>
-                <h1 className='headerHomeTitle'>Your World</h1>
-                <h4 className='headerHomeSubTitle'>Cambiare il Futuro: Monitoraggio del Climate Change in Tempo Reale</h4>
-                <p className='headerHomeP'>Il nostro sito web offre un accesso immediato
+        <header className={styles.headerHome}>
+            <div className={styles.headerHomeBox}>
+                <h1 className={styles.headerHomeTitle}>Your World</h1>
+                <h4 className={styles.headerHomeSubTitle}>Cambiare il Futuro: Monitoraggio del Climate Change in Tempo Reale</h4>
+                <p className={styles.headerHomeP}>Il nostro sito web offre un accesso immediato
                     e intuitivo ai dati più recenti sul climate change.
                     Con dati in tempo reale e visualizzazioni interattive,
                     potrai esplorare le tendenze climatiche globali, monitorare

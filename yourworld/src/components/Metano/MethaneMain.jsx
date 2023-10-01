@@ -1,13 +1,13 @@
 import React from 'react'
-
+import styles from './methane.module.css'
 const MethaneMain = () => {
     return (
 
-        <main className='methaneMain'>
-            <h2 className='methaneMainTitle'>
+        <main className={styles.methaneMain}>
+            <h2 className={styles.methaneMainTitle}>
                 Metano
             </h2>
-            <p className='methaneMainP'>
+            <p className={styles.methaneMainP}>
                 Il metano, spesso sottovalutato, riveste
                 un ruolo cruciale  nel riscaldamento globale.
                 La sua concentrazione nell'atmosfera può essere

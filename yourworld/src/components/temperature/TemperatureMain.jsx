@@ -1,12 +1,12 @@
 import React from 'react'
-
+import styles from './temperature.module.css'
 const TemperatureMain = () => {
     return (
-        <main className='temperatureMain'>
-            <h2 className='temperatureMainTitle'>
+        <main className={styles.temperatureMain}>
+            <h2 className={styles.temperatureMainTitle}>
                 Temperature
             </h2>
-            <p className='temperatureMainP'>
+            <p className={styles.temperatureMainP}>
                 L'innalzamento delle temperature globali
                 è principalmente dovuto all'aumento delle
                 concentrazioni di <strong>gas serra nell'atmosfera</strong>,

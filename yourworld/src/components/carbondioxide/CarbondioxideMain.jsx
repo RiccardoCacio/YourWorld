@@ -1,12 +1,13 @@
 import React from 'react'
+import styles from './carbondioxide.module.css'
 const CarbondioxideMain = () => {
 
     return (
-        <main className='carbonMain'>
-            <h2 className='carbonMainTitle'>
+        <main className={styles.carbonMain}>
+            <h2 className={styles.carbonMainTitle}>
                 Co2
             </h2>
-            <p className='carbonMainP'>
+            <p className={styles.carbonMainP}>
                 Per migliaia di anni, il nostro
                 pianeta ha mantenuto un equilibrio
                 atmosferico con una concentrazione

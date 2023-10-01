@@ -5,7 +5,7 @@ import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
 import Spinner from '../LoadingSpinner/Spinner';
 import Error from '../Error/Error';
-
+import styles from './ice.module.css'
 const IceChart = () => {
     const iceUrl = 'https://global-warming.org/api/arctic-api';
     const [iceData, setIceData] = useState([]);
@@ -74,8 +74,8 @@ const IceChart = () => {
 
     return (
         <> {iceIsAvaible ?
-            <div className='iceChart'>
-                <h2 className='iceChartTitle'>Calotte polari sciolte</h2>
+            <div className={styles.iceChart}>
+                <h2 className={styles.iceChartTitle}>Calotte polari sciolte</h2>
                 {iceIsCharge ? <Line data={data} options={options} />
                     : <Spinner />}
             </div>
