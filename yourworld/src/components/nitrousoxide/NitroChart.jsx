@@ -5,6 +5,7 @@ import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
 import Spinner from '../LoadingSpinner/Spinner';
 import Error from '../Error/Error';
+import styles from './nitro.module.css'
 
 const NitroChart = () => {
 
@@ -83,8 +84,8 @@ const NitroChart = () => {
 
     return (
         <> {nitroIsAvaible ?
-            <div className='nitroChart'>
-                <h2 className='nitroChartTitle'>Anomalie della temperatura globale dal 1880 ad oggi</h2>
+            <div className={styles.nitroChart}>
+                <h2 className={styles.nitroChartTitle}>Anomalie della temperatura globale dal 1880 ad oggi</h2>
                 {nitroIsCharge ? <Line data={data} options={options} />
                     : <Spinner />}
             </div>

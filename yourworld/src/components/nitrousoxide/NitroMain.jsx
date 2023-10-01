@@ -1,13 +1,13 @@
 import React from 'react'
-
+import styles from './nitro.module.css'
 const NitroMain = () => {
     return (
         <main>
-            <main className='nitroMain'>
-                <h2 className='nitroMainTitle'>
+            <main className={styles.nitroMain}>
+                <h2 className={styles.nitroMainTitle}>
                     Ossido di Azoto (NO2)
                 </h2>
-                <p className='nitroMainP'>
+                <p className={styles.nitroMainP}>
                     L'ossido di diazoto, noto anche
                     come protossido di azoto o gas
                     esilarante, <strong>è un inquinante atmosferico </strong>

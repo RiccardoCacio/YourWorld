@@ -5,7 +5,7 @@ import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
 import Spinner from '../LoadingSpinner/Spinner';
 import Error from '../Error/Error';
-
+import styles from './carbondioxide.module.css'
 const CarbondioxideChart = () => {
 
     const carbonUrl = 'https://global-warming.org/api/co2-api'
@@ -84,8 +84,8 @@ const CarbondioxideChart = () => {
     return (
 
         <> {carbonIsAvaible ?
-            <div className='carbonChart'>
-                <h2 className='carbonChartTitle'>Livelli di Co2 dal 2013 ad oggi</h2>
+            <div className={styles.carbonChart}>
+                <h2 className={styles.carbonChartTitle}>Livelli di Co2 dal 2013 ad oggi</h2>
                 {carbonIsCharge ? <Line data={data} options={options} />
                     : <Spinner />}
             </div>

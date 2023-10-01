@@ -1,13 +1,13 @@
 import React from 'react'
-
+import styles from './home.module.css'
 const HomeMain = () => {
     return (
-        <main className='homeMain'>
-            <h2 className='homeMainTitle'>
+        <main className={styles.homeMain}>
+            <h2 className={styles.homeMainTitle}>
                 Cosa è il riscaldamento globale?
             </h2>
 
-            <p className='homeMainP'>
+            <p className={styles.homeMainP}>
                 Il <strong> surriscaldamento globale</strong> è l'aumento
                 graduale delle temperature sulla Terra,
                 causato principalmente dalle emissioni
@@ -22,9 +22,9 @@ const HomeMain = () => {
 
 
 
-            <h2 className='homeMainTitle'>Da cosa è causato?</h2>
+            <h2 className={styles.homeMainTitle}>Da cosa è causato?</h2>
 
-            <p className="homeMainP">
+            <p className={styles.homeMainP}>
                 Il surriscaldamento globale è principalmente
                 causato dall'aumento delle <strong>emissioni di gas
                     serra nell'atmosfera</strong> , il quale è dovuto
@@ -36,9 +36,9 @@ const HomeMain = () => {
                     sulla Terra.</strong>
             </p>
 
-            <h2 className='homeMainTitle'>Ci sono soluzioni?</h2>
+            <h2 className={styles.homeMainTitle}>Ci sono soluzioni?</h2>
 
-            <p className="homeMainP">
+            <p className={styles.homeMainP}>
                 <strong>Esistono diverse</strong> strategie per mitigare il
                 surriscaldamento globale. Una delle principali
                 è la transizione verso <strong>fonti di energia più

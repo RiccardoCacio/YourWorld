@@ -1,11 +1,11 @@
 import React from 'react'
-import './spinner.css'
+import styles from './spinner.module.css'
 const Spinner = () => {
     return (
         <>
-            <div className="loader">
+            <div className={styles.loader}>
             </div>
-            <h3 className='loaderText'>Loading...</h3>
+            <h3 className={styles.loaderText}>Loading...</h3>
         </>
     )
 }

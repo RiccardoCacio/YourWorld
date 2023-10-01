@@ -1,6 +1,5 @@
 import React from 'react'
 import HomeHeader from './HomeHeader'
-import './home.css'
 import HomeMain from './HomeMain'
 import HelmetHead from '../HelmetHead/HelmetHead';
 const Home = () => {

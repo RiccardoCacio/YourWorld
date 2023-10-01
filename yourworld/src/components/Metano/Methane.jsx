@@ -1,6 +1,5 @@
 import React from 'react'
 import MethaneHeader from './MethaneHeader'
-import './methane.css'
 import MethaneMain from './MethaneMain'
 import MethaneChart from './MethaneChart'
 import HelmetHead from '../HelmetHead/HelmetHead';

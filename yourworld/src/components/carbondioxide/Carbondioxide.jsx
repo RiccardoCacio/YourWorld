@@ -1,6 +1,5 @@
 import React from 'react'
 import CarbondioxideHeader from './CarbondioxideHeader'
-import './carbondioxide.css'
 import CarbondioxideMain from './CarbondioxideMain'
 import CarbondioxideChart from './CarbondioxideChart'
 import HelmetHead from '../HelmetHead/HelmetHead';

@@ -1,13 +1,13 @@
 import React from 'react'
-
+import styles from './carbondioxide.module.css'
 const CarbondioxideHeader = () => {
     return (
-        <header className='headerCarbon'>
-            <div className="headerCarbonBox">
-                <h4 className="headerCarbonSubTitle">
+        <header className={styles.headerCarbon}>
+            <div className={styles.headerCarbonBox}>
+                <h4 className={styles.headerCarbonSubTitle}>
                     Il Gas Vitale ed il Suo Impatto Sul Clima
                 </h4>
-                <p className="headerCarbonP">
+                <p className={styles.headerCarbonP}>
                     La CO2, o anidride carbonica,
                     è un gas vitale per la vita sulla Terra,
                     ma le sue crescenti emissioni dovute all'attività

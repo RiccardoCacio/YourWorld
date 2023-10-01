@@ -1,13 +1,13 @@
 import React from 'react'
-
+import styles from './methane.module.css'
 const MethaneHeader = () => {
     return (
-        <header className='headerMethane'>
-            <div className="headerMethaneBox">
-                <h4 className="headerMethaneSubTitle">
+        <header className={styles.headerMethane}>
+            <div className={styles.headerMethaneBox}>
+                <h4 className={styles.headerMethaneSubTitle}>
                     Il Potente Impatto del Metano sull'Effetto Serra
                 </h4>
-                <p className="headerMethaneP">
+                <p className={styles.headerMethaneP}>
                     Il metano è un gas serra naturale
                     noto per il suo potere di
                     riscaldamento globale 25 volte

@@ -5,7 +5,7 @@ import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
 import Spinner from '../LoadingSpinner/Spinner';
 import Error from '../Error/Error';
-
+import styles from './methane.module.css'
 const MethaneChart = () => {
 
     const [methaneData, setMethaneData] = useState([]);
@@ -84,8 +84,8 @@ const MethaneChart = () => {
 
     return (
         <> {methaneIsAvaible ?
-            <div className='methaneChart'>
-                <h2 className='methaneChartTitle'>Livelli di metano dal 1984 ad oggi</h2>
+            <div className={styles.methaneChart}>
+                <h2 className={styles.methaneChartTitle}>Livelli di metano dal 1984 ad oggi</h2>
                 {methaneIsCharge ? <Line data={data} options={options} />
                     : <Spinner />}
             </div>

@@ -1,13 +1,13 @@
 import React from 'react'
-
+import styles from './ice.module.css'
 const IceHeader = () => {
     return (
-        <header className='headerIce'>
-            <div className="headerIceBox">
-                <h4 className="headerIceSubTitle">
+        <header className={styles.headerIce}>
+            <div className={styles.headerIceBox}>
+                <h4 className={styles.headerIceSubTitle}>
                     Il Preoccupante Scioglimento <br /> dei Ghiacciai nel Mondo
                 </h4>
-                <p className="headerIceP">
+                <p className={styles.headerIceP}>
                     Lo scioglimento dei ghiacciai
                     è una grave conseguenza del
                     cambiamento climatico globale.

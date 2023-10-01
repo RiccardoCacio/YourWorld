@@ -1,13 +1,13 @@
 import React from 'react'
-
+import styles from './ice.module.css'
 const IceMain = () => {
     return (
 
-        <main className='iceMain'>
-            <h2 className='iceMainTitle'>
+        <main className={styles.iceMain}>
+            <h2 className={styles.iceMainTitle}>
                 Calotte polari sciolte
             </h2>
-            <p className='iceMainP'>
+            <p className={styles.iceMainP}>
                 Lo scioglimento delle calotte polari
                 è un <strong> allarmante fenomeno </strong>causato dal
                 riscaldamento globale e dal cambiamento
