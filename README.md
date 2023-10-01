@@ -28,6 +28,7 @@ del climate change!</p>
 • [Chart.js](https://www.chartjs.org)<br>
 • React Router<br>
 • [Axios](https://axios-http.com)<br>
+• Helmet<br>
 • [React](https://react.dev)<br>
 
 ### Webhost
