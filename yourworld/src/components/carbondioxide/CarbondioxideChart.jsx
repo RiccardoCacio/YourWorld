@@ -3,8 +3,8 @@ import axios from 'axios'
 import { Line, line } from 'react-chartjs-2';
 import Chart from "chart.js/auto";
 import { CategoryScale } from "chart.js";
-import Spinner from '../loadingSpinner/Spinner';
-import Error from '../error/Error';
+import Spinner from '../LoadingSpinner/Spinner';
+import Error from '../Error/Error';
 
 const CarbondioxideChart = () => {
 

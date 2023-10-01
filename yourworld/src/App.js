@@ -1,13 +1,13 @@
 import './App.css';
 import { BrowserRouter as Router, Routes, Link, Route } from 'react-router-dom';
-import Navbar from './components/navbar/Navbar';
-import Home from './components/home/Home';
-import Temperature from './components/temperature/Temperature.jsx';
-import Carbondioxide from './components/carbondioxide/Carbondioxide';
-import Metano from './components/metano/Metano';
-import Nitrousoxide from './components/nitrousoxide/Nitrousoxide';
-import Ghiacciopolare from './components/ghiacciopolare/Ghiacciopolare';
-import Footer from './components/footer/Footer';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/Home/Home';
+import Temperature from './components/Temperature/Temperature.jsx';
+import Carbondioxide from './components/Carbondioxide/Carbondioxide';
+import Methane from './components/Metano/Methane';
+import Nitrousoxide from './components/Nitrousoxide/Nitrousoxide';
+import PolarIce from './components/PolarIce/Ice';
+import Footer from './components/Footer/Footer';
 function App() {
   return (
     <Router>
@@ -22,11 +22,11 @@ function App() {
 
           <Route path='/co2' element={<Carbondioxide />} />
 
-          <Route path='/metano' element={<Metano />} />
+          <Route path='/metano' element={<Methane />} />
 
           <Route path='/no2' element={<Nitrousoxide />} />
 
-          <Route path='/ghiacciopolare' element={<Ghiacciopolare />} />
+          <Route path='/ghiacciopolare' element={<PolarIce />} />
 
         </Routes>
 
