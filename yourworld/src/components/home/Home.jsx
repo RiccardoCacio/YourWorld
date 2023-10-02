@@ -1,7 +1,8 @@
 import React from 'react'
-import HomeHeader from './HomeHeader'
-import HomeMain from './HomeMain'
+import HomeHeader from './Header/HomeHeader'
+import HomeMain from './Main/HomeMain'
 import HelmetHead from '../HelmetHead/HelmetHead';
+
 const Home = () => {
 
     const helmetHomeDescription = "Scopri gli impatti del cambiamento climatico sul nostro pianeta. Approfondisci le conseguenze dell'aumento della concentrazione di CO2 e N2O nell'atmosfera. Esplora il pericoloso scioglimento delle calotte polari e le sfide associate. Analizza il ruolo critico del metano come gas serra. Comprendi l'innalzamento delle temperature globali e le azioni necessarie per affrontare questa emergenza ambientale."

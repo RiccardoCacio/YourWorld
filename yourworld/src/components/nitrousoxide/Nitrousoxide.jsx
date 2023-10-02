@@ -1,7 +1,7 @@
 import React from 'react'
-import NitroHeader from './NitroHeader'
-import NitroMain from './NitroMain'
-import NitroChart from './NitroChart'
+import NitroHeader from './Header/NitroHeader'
+import NitroMain from './Main/NitroMain'
+import NitroChart from './Chart/NitroChart'
 import HelmetHead from '../HelmetHead/HelmetHead';
 
 const Nitrousoxide = () => {

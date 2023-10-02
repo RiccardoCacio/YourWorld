@@ -1,8 +1,7 @@
 import React from 'react'
-import IceHeader from './IceHeader'
-import IceMain from './IceMain'
-import IceChart from './IceChart'
-import './ice.module.css'
+import IceHeader from './Header/IceHeader'
+import IceMain from './Main/IceMain'
+import IceChart from './Chart/IceChart'
 import HelmetHead from '../HelmetHead/HelmetHead';
 
 const Icepolare = () => {

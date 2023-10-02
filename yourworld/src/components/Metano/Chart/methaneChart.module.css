@@ -1,0 +1,19 @@
+/* CHART */
+.methaneChart {
+    margin-top: 50px;
+    padding: 0% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .methaneChart {
+        padding: 0px;
+    }
+}
+
+.methaneChartTitle {
+    font-size: 27px;
+    color: #f07727;
+}

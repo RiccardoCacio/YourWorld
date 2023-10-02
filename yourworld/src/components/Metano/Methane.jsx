@@ -1,7 +1,7 @@
 import React from 'react'
-import MethaneHeader from './MethaneHeader'
-import MethaneMain from './MethaneMain'
-import MethaneChart from './MethaneChart'
+import MethaneHeader from './Header/MethaneHeader'
+import MethaneMain from './Main/MethaneMain'
+import MethaneChart from './Chart/MethaneChart'
 import HelmetHead from '../HelmetHead/HelmetHead';
 const Methane = () => {
     const helmetMethaneDescription = " Scopri il potente impatto del metano sul cambiamento climatico e le sue fonti principali di emissione. Esplora soluzioni innovative per mitigare l'inquinamento da metano e come puoi contribuire a frenare il riscaldamento globale."

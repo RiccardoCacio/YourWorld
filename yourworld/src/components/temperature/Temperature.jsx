@@ -1,7 +1,7 @@
 import React from 'react'
-import TemperatureHeader from './TemperatureHeader'
-import TemperatureMain from './TemperatureMain'
-import TemperatureChart from './TemperatureChart'
+import TemperatureHeader from './Header/TemperatureHeader'
+import TemperatureMain from './Main/TemperatureMain'
+import TemperatureChart from './Chart/TemperatureChart'
 import HelmetHead from '../HelmetHead/HelmetHead';
 const Temperature = () => {
     const helmetTemperatureDescription = "Scopri come l'innalzamento delle temperature globali è un effetto chiave dei cambiamenti climatici e le conseguenze che comporta per il nostro pianeta. Esplora le cause dell'innalzamento delle temperature, le sue implicazioni per l'ambiente e la vita sulla Terra, e le azioni necessarie per affrontare questa sfida."

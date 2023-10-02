@@ -1,7 +1,7 @@
 import React from 'react'
-import CarbondioxideHeader from './CarbondioxideHeader'
-import CarbondioxideMain from './CarbondioxideMain'
-import CarbondioxideChart from './CarbondioxideChart'
+import CarbondioxideHeader from './Header/CarbondioxideHeader'
+import CarbondioxideMain from './Main/CarbondioxideMain'
+import CarbondioxideChart from './Chart/CarbondioxideChart'
 import HelmetHead from '../HelmetHead/HelmetHead';
 const Carbondioxide = () => {
 

@@ -1,0 +1,23 @@
+/* MAIN */
+.nitroMain {
+    margin-top: 50px;
+}
+
+.nitroMainTitle {
+    font-size: 27px;
+    color: #f07727;
+    margin-top: 30px;
+}
+
+.nitroMainP {
+    text-align: center;
+    line-height: 1.75;
+    font-size: 20px;
+    font-weight: 300;
+    color: #6c757d !important;
+    text-align: justify !important;
+    box-sizing: border-box;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 0% 10% 0% 10%;
+}

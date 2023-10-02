@@ -1,0 +1,20 @@
+.carbonChart {
+    margin-top: 50px;
+    padding: 0% 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 767px) {
+    .carbonChart {
+        padding: 0px;
+    }
+}
+
+
+
+.carbonChartTitle {
+    font-size: 27px;
+    color: #f07727;
+}

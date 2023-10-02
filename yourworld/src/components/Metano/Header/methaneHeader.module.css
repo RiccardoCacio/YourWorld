@@ -1,0 +1,37 @@
+/* HEADER */
+.headerMethane {
+    background-image: url(../../../img/metanoHeader.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.headerMethaneBox {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    max-height: 600px;
+    background-color: rgba(88, 87, 87, 0.4);
+}
+
+.headerMethaneSubTitle {
+    margin-top: 190px;
+    color: #f07727;
+    font-size: 27px;
+    font-weight: 800;
+}
+
+@media only screen and (max-width: 767px) {
+    .headerMethaneSubTitle {
+        margin-top: 100px;
+        font-size: 24px;
+        padding: 0px 10px;
+    }
+}
+
+.headerMethaneP {
+    color: #f6f4f3;
+    font-size: 21px;
+    padding: 0% 10% 0% 10%;
+}
